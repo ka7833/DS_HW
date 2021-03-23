@@ -7,17 +7,16 @@ public class DS_HW {
 
 	public static void main(String[] args) {
 
-		int[] numberArray = {1, 2, 3 ,4, 5};
+	    int[] numberArray = {1, 2, 3 ,4, 5};
 	    int sum = 0;
 	    for(int number: numberArray) {
 	    	sum+= number;
 	    }
+	     System.out.println(sum);
 		
-		System.out.println(sum);
-		
-		double[] exampleArray = {1,5,6,5,4,1};
+	    double[] exampleArray = {1, 5, 6, 5, 4, 1};
 
-        double maximum = exampleArray[0];
+            double maximum = exampleArray[0];
 
         int index = 0;
 
@@ -46,12 +45,4 @@ public class DS_HW {
 
 		return myArray;
 	}
-	
-	/*
-	 * Write a public static method called "toPower" that takes in as parameters two integers called 
-	 * size and power. The method should return an array of size "size" with each array index raised 
-	 * to the value of "power." So, for example, if we passed in "size = 4" and "power = 2" to the 
-	 * "toPower," the method should return the following result: [0,1,4,9].
-	 * */
-
 }
